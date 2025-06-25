@@ -141,11 +141,31 @@
 	      	<div class="overlay"></div>
 	         <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/port8.png); margin-top: 300px !important; height: 415px;">
+	          	<!-- <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/port8.png);">
 	          	 <div class="overlay"></div>
-	          	</div>
+	          	</div> -->
 		          
-				
+			
+
+				<div class="one-third js-fullheight order-md-last">
+  <img src="images/port8.png" class="responsive-img" />
+</div>
+
+<style>
+  /* Default styles for desktop (nothing added) */
+
+  /* Styles for mobile view only (max-width: 767px) */
+  @media (max-width: 767px) {
+    .responsive-img {
+      margin-top: 300px !important;
+      height: 415px;
+      object-fit: cover;
+    }
+  }
+</style>
+
+
+
 				<div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
 		          		<span class="subheading">Hello!</span>
